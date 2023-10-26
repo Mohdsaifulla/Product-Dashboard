@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    font-size: 10px;
+    font-weight: bold;
+    color: #999;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.active {
+    background-color: rgb(178, 237, 178);
+    border-radius: 5px;
+    padding: 2px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inactive {
+    background-color: rgb(234, 143, 143);
+    border-radius: 5px;
+    padding: 2px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+
+  }
